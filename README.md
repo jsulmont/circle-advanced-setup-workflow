@@ -13,3 +13,5 @@ This repository demonstrates an advanced use case of setup workflow feature on C
 2.  Given a list of directories, detect which subdirectories (herein modules) have changes. (cf. `list-changed-modules`)
 3.  Fetch `path-to-module/.circleci/config.yml` for each module to build, and merge all the fetched `config.yml` (along with the config defining common resources, i.e., `.circleci/config.yml`) using `yq`. (cf. `merge-modular-configs`)
 4.  Trigger execution of the merged config.
+
+[![CircleCI](https://circleci.com/gh/jsulmont/circle-advanced-setup-workflow/tree/main.svg?style=svg)](https://circleci.com/gh/jsulmont/circle-advanced-setup-workflow/tree/main)
