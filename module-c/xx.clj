@@ -1,3 +1,3 @@
 (ns foo)
 
-:pok
+:pokXXXX
